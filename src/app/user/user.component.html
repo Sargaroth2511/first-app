@@ -2,8 +2,8 @@
     <button (click) = "onSelectUser()">
         <img 
             [src]="imagePath" 
-            [alt]="randomUser().name"
+            [alt]="name()"
         />
-        <span>{{randomUser().name}}</span>
+        <span>{{name()}}</span>
     </button>
 </div>
